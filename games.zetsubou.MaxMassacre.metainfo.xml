@@ -20,6 +20,11 @@
 	<url type="contact">https://twitter.com/ZetsubouGames</url>
 	<launchable type="desktop-id">games.zetsubou.MaxMassacre.desktop</launchable>
 	<releases>
+		<release version="2.0.0" date="2023-06-26">
+			<description>
+				<p>Version 2.0.0 introduces a revamped GUI, new settings, better controller support</p>
+			</description>
+		</release>
 		<release version="1.2.1" date="2022-08-12">
 			<description>
 				<p>Version 1.2.1 is the initial flatpak build</p>

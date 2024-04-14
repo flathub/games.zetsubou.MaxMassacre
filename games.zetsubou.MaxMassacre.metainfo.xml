@@ -51,9 +51,11 @@
 		</screenshot>
 	</screenshots>
 	<content_rating type="oars-1.1">
-		<content_attribute id="violence-bloodshed">mild</content_attribute>
-		<content_attribute id="sex-nudity">mild</content_attribute>
+		<content_attribute id="violence-fantasy">mild</content_attribute>
 		<content_attribute id="sex-themes">mild</content_attribute>
-		<content_attribute id="sex-appearance">mild</content_attribute>
 	</content_rating>
+	<branding>
+		<color type="primary" scheme_preference="light">#99c1f1</color>
+		<color type="primary" scheme_preference="dark">#3d3846</color>
+	</branding>
 </component>

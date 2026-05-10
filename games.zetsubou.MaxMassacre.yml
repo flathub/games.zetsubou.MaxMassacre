@@ -22,13 +22,13 @@ modules:
       - install -Dm644 games.zetsubou.MaxMassacre.png "/app/share/icons/hicolor/512x512/apps/games.zetsubou.MaxMassacre.png"
     sources:
       - type: archive
-        url: https://cdn.zetsubou.games/Flatpak/MaxMassacre/builds/v2.0.0-x86_64.tar.bz2
-        sha512: 773e1cf9524a33bd598850e7e434fa1595c3b7101bd8da52a3a2b140d3215298f3ef392befb68749909a0ebd96fbfe15741cb117ffd3200b6e3c04ef42448b8a
+        url: https://gitlab.com/zetsubougames-builds/max-massacre/-/releases/v2.0.1/downloads/max-massacre-linux-amd64.zip
+        sha512: 4fe53c79da5925a9b5b91024646bc7d5790bd32e9e30512c94c3d268a25803f74abef8f15c84c8e52313f93ca4828b5cd1cca309d1255e64774d9d7375ed61ca
         only-arches:
           - x86_64
       - type: archive
-        url: https://cdn.zetsubou.games/Flatpak/MaxMassacre/builds/v2.0.0-aarch64.tar.bz2
-        sha512: ce76aee3f9d75c9169e48b0f3cd360f378b76e7c303e820baea0ae9355a2efb34a6e713a9db6113a95151c142abe2fa72f6dfd9fd21e96244b2f201fc424fdda
+        url: https://gitlab.com/zetsubougames-builds/max-massacre/-/releases/v2.0.1/downloads/max-massacre-linux-aarch64.zip
+        sha512: 462b0c7c3ec638f7581bd1bb9105ca647ad49a9566fc3628f7b6e7595fe26cb86264e9c30aa3990fdd2318acb1c5ad161e4b8179a32c09e4c4434376bd1ac232
         only-arches:
           - aarch64
       - type: file

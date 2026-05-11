@@ -2,24 +2,47 @@
 <component type="desktop-application">
 	<id>games.zetsubou.MaxMassacre</id>
 	<metadata_license>CC0-1.0</metadata_license>
+	<project_license>LicenseRef-proprietary</project_license>
 	<name>Max Massacre</name>
 	<summary>A visual novel set in a monster-filled fantasy world</summary>
 	<description>
-                <p>Max Massacre is a Visual Novel with a single choice to determine the ending.</p>
-                <p>In a world filled with monsters, demons, and other inhuman creatures, mankind is no longer the dominant race. Humans are nothing more than cattle, fed on by more powerful entities and hunted down for sport. Humans in general are weak, not even a match for the children of those who hunt them, and they know it. The human race is steadily declining, and before long, mankind will exist no longer.</p>
-                <p>As a child born into such a world, Max aspires to become a hero. A mighty warrior who will save the human race from the cusp of extinction, wielding strength unheard of for a boy on the brink of adulthood. He is already the strongest fighter in his village in hand to hand combat, and he has killed his fair share of low-level monsters. At seventeen years of age, he is well on his way to becoming the hero he aspires to be, and no matter how much his fellow villagers hate and scorn him for his demonic aura, Max wishes to save every one of them.</p>
-                <p>Forever by Max's side is his childhood friend and love interest, Celeste. Like Max, she possesses incredible strength, and is by far the strongest sorceress in the village. She is knowledgeable, intelligent, well-liked, and quite attractive; a truly fortunate young woman in almost every way imaginable. However, beneath this amiable exterior is a mind far more cynical and unforgiving. She does not share Max's outlook on life, nor does she condone his desire to become a hero, or to protect those who harm him. To her, humans are no better than the demons oppressing them, and she would happily leave their village in flames, if only Max would go with her.</p>
-                <p>As Max and Celeste go about their routine lives in the small village they call home, their differing views on the world clash every day, with each one trying to convince the other to see the light. But with the other villagers all living in fear and contempt of Max, and not hesitating for a moment to show how they feel, Celeste has a clear advantage. She believes it's only a matter of time before Max realizes what a fool he has been, and with the level of malice being directed towards Max increasing day by day, she might be right.</p>
-                <p>Will Max manage to convince Celeste that the human race is worth protecting? Or will Celeste prove to Max once and for all that his enemy is not demonkind, but the familiar faces of those who deny his humanity?</p>
+		<p>Max Massacre is a fantasy visual novel with a single choice to determine the ending.</p>
+		<p>In a world filled with monsters, demons, and other inhuman creatures, mankind is no longer the dominant race. 
+			Humans are nothing more than cattle, fed on by more powerful entities and hunted down for sport. 
+			Humans in general are weak, not even a match for the children of those who hunt them, and they know it. 
+			The human race is steadily declining, and before long, mankind will exist no longer.</p>
+		<p>As a child born into such a world, Max aspires to become a hero. A mighty warrior who will save the human race from the cusp of extinction, 
+			wielding strength unheard of for a boy on the brink of adulthood. He is already the strongest fighter in his village in hand to hand combat, 
+			and he has killed his fair share of low-level monsters. At seventeen years of age, he is well on his way to becoming the hero he aspires to be, 
+			and no matter how much his fellow villagers hate and scorn him for his demonic aura, Max wishes to save every one of them.</p>
+		<p>Forever by Max's side is his childhood friend and love interest, Celeste. Like Max, she possesses incredible strength, and is by far the strongest 
+			sorceress in the village. She is knowledgeable, intelligent, well-liked, and quite attractive; a truly fortunate young woman in almost every way imaginable. 
+			However, beneath this amiable exterior is a mind far more cynical and unforgiving. She does not share Max's outlook on life, nor does she condone his desire 
+			to become a hero, or to protect those who harm him. To her, humans are no better than the demons oppressing them, and she would happily leave their 
+			village in flames, if only Max would go with her.</p>
+		<p>As Max and Celeste go about their routine lives in the small village they call home, their differing views on the world clash every day, 
+			with each one trying to convince the other to see the light. But with the other villagers all living in fear and contempt of Max, 
+			and not hesitating for a moment to show how they feel, Celeste has a clear advantage. She believes it's only a matter of time before 
+			Max realizes what a fool he has been, and with the level of malice being directed towards Max increasing day by day, she might be right.</p>
+		<p>Will Max manage to convince Celeste that the human race is worth protecting? Or will Celeste prove to Max once and for all that 
+			his enemy is not demonkind, but the familiar faces of those who deny his humanity?</p>
 	</description>
 	<categories>
 		<category>Game</category>
 	</categories>
 	<url type="homepage">https://zetsubou.games</url>
 	<url type="bugtracker">https://github.com/koroshiya/mm-flatpak/issues</url>
-	<url type="contact">https://twitter.com/ZetsubouGames</url>
+	<url type="contact">https://zetsubou.games/links/</url>
+	<developer id="games.zetsubou">
+		<name>Zetsubou Games</name>
+	</developer>
 	<launchable type="desktop-id">games.zetsubou.MaxMassacre.desktop</launchable>
 	<releases>
+		<release version="2.0.1" date="2026-05-10">
+			<description>
+				<p>Updates the game engine and flatpak runtime versions</p>
+			</description>
+		</release>
 		<release version="2.0.0" date="2023-06-26">
 			<description>
 				<p>Version 2.0.0 introduces a revamped GUI, new settings, better controller support</p>
@@ -31,8 +54,6 @@
 			</description>
 		</release>
 	</releases>
-	<project_license>LicenseRef-proprietary</project_license>
-	<developer_name>Zetsubou Games</developer_name>
 	<screenshots>
 		<screenshot type="default">
 			<image type="source">https://cdn.zetsubou.games/Flatpak/MaxMassacre/screenshots/1.jpg</image>
@@ -58,4 +79,13 @@
 		<color type="primary" scheme_preference="light">#99c1f1</color>
 		<color type="primary" scheme_preference="dark">#3d3846</color>
 	</branding>
+	<supports>
+		<control>keyboard</control>
+		<control>pointing</control>
+		<control>touch</control>
+		<control>gamepad</control>
+	</supports>
+	<requires>
+		<display_length compare="ge">768</display_length>
+	</requires>
 </component>
